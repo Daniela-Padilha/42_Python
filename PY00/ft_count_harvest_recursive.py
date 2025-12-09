@@ -1,4 +1,4 @@
-def ft_count_harvest_recursive(current: int = 1, total: int | None = None):
+def ft_count_harvest_recursive(current: int = 1, total: int | None = None) -> None:
     if (total is None):
         print("total until harvest: ", end="")
         total = int(input())

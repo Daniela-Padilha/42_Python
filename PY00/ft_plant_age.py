@@ -1,4 +1,4 @@
-def ft_plant_age():
+def ft_plant_age() -> None:
     age: int = 0
 
     print("Enter plant age in days: ", end="")

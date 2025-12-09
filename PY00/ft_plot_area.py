@@ -1,5 +1,5 @@
 
-def ft_plot_area():
+def ft_plot_area() -> None:
     length: int = 0
     width: int = 0
     res: int = 0

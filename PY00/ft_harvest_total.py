@@ -1,4 +1,4 @@
-def ft_harvest_total():
+def ft_harvest_total() -> None:
     total:	int = 0
     day1:	int = 0
     day2:	int = 0

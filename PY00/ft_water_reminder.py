@@ -1,4 +1,4 @@
-def ft_water_reminder():
+def ft_water_reminder() -> None:
     days: int = 0
 
     print("Days since last watering: ", end="")

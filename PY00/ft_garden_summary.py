@@ -1,4 +1,4 @@
-def ft_garden_summary():
+def ft_garden_summary() -> None:
     name: str = ""
     plants: str = ""
 
