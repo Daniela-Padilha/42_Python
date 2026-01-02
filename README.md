@@ -11,14 +11,14 @@ Each module builds upon the previous one, moving from Python fundamentals to obj
 
 Introduction to Python syntax and basic programming concepts using simple garden-related data.
 
-| File  | Concept                                                                 |
-|-------|-------------------------------------------------------------------------|
-| ex00  | Python execution, basic output, environment setup                        |
-| ex01  | Variables, basic data types, arithmetic operations                       |
-| ex02  | Command-line arguments (`sys.argv`)                                      |
-| ex03  | String manipulation and formatting                                       |
-| ex04  | Conditional logic applied to garden data                                 |
-| ex05  | Functions and simple data processing                                     |
+| Concepts                                                                 |
+|--------------------------------------------------------------------------|
+| Python execution, basic output, environment setup                        |
+| Variables, basic data types, arithmetic operations                       |
+| Command-line arguments (`sys.argv`)                                      |
+| String manipulation and formatting                                       |
+| Conditional logic applied to garden data                                 |
+| Functions and simple data processing                                     |
 
 ---
 
@@ -26,13 +26,13 @@ Introduction to Python syntax and basic programming concepts using simple garden
 
 Working with control structures to explore, filter, and validate garden datasets.
 
-| File  | Concept                                                                 |
-|-------|-------------------------------------------------------------------------|
-| ex00  | Conditional statements (`if`, `elif`, `else`)                            |
-| ex01  | Looping through datasets (`for`, `while`)                                |
-| ex02  | Accumulators and counters                                                |
-| ex03  | Input validation and edge cases                                          |
-| ex04  | Simple analytical logic on structured data                               |
+| Concepts                                                                 |
+|--------------------------------------------------------------------------|
+| Classes, __init__, OOP                                                   |
+| Encapsulation                                                            |
+| Setters and getters                                                      |
+| Input validation and edge cases                                          |
+| Simple analytical logic on structured data                               |
 
 ---
 
@@ -40,13 +40,13 @@ Working with control structures to explore, filter, and validate garden datasets
 
 Introduction to Python’s built-in data structures for storing and organizing garden data.
 
-| File  | Concept                                                                 |
-|-------|-------------------------------------------------------------------------|
-| ex00  | Lists and indexed data                                                   |
-| ex01  | Tuples and immutable records                                             |
-| ex02  | Dictionaries as structured datasets                                      |
-| ex03  | Nested data structures                                                   |
-| ex04  | Iterating and querying collections                                       |
+| Concepts                                                                 |
+|--------------------------------------------------------------------------|
+| Lists and indexed data                                                   |
+| Tuples and immutable records                                             |
+| Dictionaries as structured datasets                                      |
+| Nested data structures                                                   |
+| Iterating and querying collections                                       |
 
 ---
 
@@ -54,13 +54,13 @@ Introduction to Python’s built-in data structures for storing and organizing g
 
 Applying functional programming concepts to transform and analyze datasets.
 
-| File  | Concept                                                                 |
-|-------|-------------------------------------------------------------------------|
-| ex00  | Lambda functions                                                         |
-| ex01  | `map`, `filter`, and `reduce`                                            |
-| ex02  | List and dictionary comprehensions                                       |
-| ex03  | Generator expressions                                                    |
-| ex04  | Data pipelines and functional-style logic                                |
+| Concepts                                                                 |
+|--------------------------------------------------------------------------|
+| Lambda functions                                                         |
+| `map`, `filter`, and `reduce`                                            |
+| List and dictionary comprehensions                                       |
+| Generator expressions                                                    |
+| Data pipelines and functional-style logic                                |
 
 ---
 
@@ -68,13 +68,13 @@ Applying functional programming concepts to transform and analyze datasets.
 
 Reading, writing, and safely handling garden data stored in files.
 
-| File  | Concept                                                                 |
-|-------|-------------------------------------------------------------------------|
-| ex00  | File reading and writing                                                 |
-| ex01  | Parsing structured text files                                            |
-| ex02  | Exception handling (`try`, `except`, `finally`)                          |
-| ex03  | Custom exceptions                                                        |
-| ex04  | Robust, fault-tolerant programs                                          |
+| Concepts                                                                 |
+|--------------------------------------------------------------------------|
+| File reading and writing                                                 |
+| Parsing structured text files                                            |
+| Exception handling (`try`, `except`, `finally`)                          |
+| Custom exceptions                                                        |
+| Robust, fault-tolerant programs                                          |
 
 ---
 
@@ -82,13 +82,13 @@ Reading, writing, and safely handling garden data stored in files.
 
 Modeling garden entities using classes and objects.
 
-| File  | Concept                                                                 |
-|-------|-------------------------------------------------------------------------|
-| ex00  | Defining classes and creating objects                                    |
-| ex01  | Attributes and instance methods                                          |
-| ex02  | Constructors (`__init__`)                                                |
-| ex03  | Encapsulation and data protection                                        |
-| ex04  | Object representation (`__str__`, `__repr__`)                            |
+| Concepts                                                                 |
+|--------------------------------------------------------------------------|
+| Defining classes and creating objects                                    |
+| Attributes and instance methods                                          |
+| Constructors (`__init__`)                                                |
+| Encapsulation and data protection                                        |
+| Object representation (`__str__`, `__repr__`)                            |
 
 ---
 
@@ -96,13 +96,13 @@ Modeling garden entities using classes and objects.
 
 Extending garden models through inheritance and polymorphic behavior.
 
-| File  | Concept                                                                 |
-|-------|-------------------------------------------------------------------------|
-| ex00  | Base and derived classes                                                 |
-| ex01  | Method overriding                                                        |
-| ex02  | `super()` and constructor chaining                                       |
-| ex03  | Polymorphism in practice                                                 |
-| ex04  | Abstract-like class design                                                |
+| Concepts                                                                 |
+|--------------------------------------------------------------------------|
+| Base and derived classes                                                 |
+| Method overriding                                                        |
+| `super()` and constructor chaining                                       |
+| Polymorphism in practice                                                 |
+| Abstract-like class design                                               |
 
 ---
 
@@ -110,12 +110,12 @@ Extending garden models through inheritance and polymorphic behavior.
 
 Enhancing object models with advanced Python OOP features.
 
-| File  | Concept                                                                 |
-|-------|-------------------------------------------------------------------------|
-| ex00  | Operator overloading                                                     |
-| ex01  | Magic methods (`__eq__`, `__lt__`, etc.)                                  |
-| ex02  | Composition vs inheritance                                               |
-| ex03  | Class attributes vs instance attributes                                  |
+| Concepts                                                                 |
+|--------------------------------------------------------------------------|
+| Operator overloading                                                     |
+| Magic methods (`__eq__`, `__lt__`, etc.)                                 |
+| Composition vs inheritance                                               |
+| Class attributes vs instance attributes                                  |
 
 ---
 
@@ -123,13 +123,13 @@ Enhancing object models with advanced Python OOP features.
 
 Adding behavior and managing resources cleanly and safely.
 
-| File  | Concept                                                                 |
-|-------|-------------------------------------------------------------------------|
-| ex00  | Function decorators                                                      |
-| ex01  | Decorators with parameters                                               |
-| ex02  | Logging and performance measurement                                      |
-| ex03  | Context managers (`with` statement)                                      |
-| ex04  | Resource and state management                                            |
+| Concepts                                                                 |
+|--------------------------------------------------------------------------|
+| Function decorators                                                      |
+| Decorators with parameters                                               |
+| Logging and performance measurement                                      |
+| Context managers (`with` statement)                                      |
+| Resource and state management                                            |
 
 ---
 
@@ -137,13 +137,13 @@ Adding behavior and managing resources cleanly and safely.
 
 Final module focused on efficient data processing and Python internals.
 
-| File  | Concept                                                                 |
-|-------|-------------------------------------------------------------------------|
-| ex00  | Iterators and iterable protocols                                         |
-| ex01  | Generator functions                                                      |
-| ex02  | Closures and lexical scoping                                             |
-| ex03  | Dynamic behavior and metaprogramming basics                              |
-| ex04  | Performance considerations and clean architecture                        |
+| Concepts                                                                 |
+|--------------------------------------------------------------------------|
+| Iterators and iterable protocols                                         |
+| Generator functions                                                      |
+| Closures and lexical scoping                                             |
+| Dynamic behavior and metaprogramming basics                              |
+| Performance considerations and clean architecture                        |
 
 ---
 
