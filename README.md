@@ -31,7 +31,7 @@ Working with control structures to explore, filter, and validate garden datasets
 | Classes, __init__, OOP                                                   |
 | Encapsulation                                                            |
 | Setters and getters                                                      |
-| Input validation and edge cases                                          |
+| Tuples, arg unpacking and list comprehension                             |
 | Simple analytical logic on structured data                               |
 
 ---

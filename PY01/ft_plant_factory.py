@@ -8,9 +8,7 @@ class Plant:
         self.oldHeight: int = 0
 
     def get_info(self) -> None:
-        print(self.name, ":", end=" ", sep="")
-        print(self.height, "cm,", end=" ", sep="")
-        print(self.age, "days old")
+        print(f"{self.name}: {self.height:.0f}cm, {self.age} days old")
 
     def grow(self) -> None:
         self.oldHeight = self.height
@@ -30,23 +28,24 @@ class Plant:
         print("Growth this week: ", "+", res, "cm", sep="")
 
 
-def ft_plant_growth() -> None:
-    plants: list[Plant] = [
-        Plant("Rose", 25, 30),
-        Plant("Sunflower", 80, 45),
-        Plant("Cactus", 15, 120),
+def ft_plant_factory() -> None:
+    data = [
+        ("Rose", 25, 30),
+        ("Oak", 200, 365),
+        ("Cactus", 5, 90),
+        ("Sunflower", 80, 45),
+        ("Fern", 15, 120)
     ]
+    # arg unpacking and list comprehension
+    garden: list[Plant] = [Plant(*p) for p in data]
+    total: int = 0
 
-    print("=== Day 1 ===")
-    for plant in plants:
-        plant.get_info()
-    print("=== Day 7 ===")
-    for plant in plants:
-        plant.ageing()
-        plant.grow()
-        plant.get_info()
-        plant.get_growth()
+    print("=== Plant Factory Output ===")
+    for plant in garden:
+        print(f"Created: {plant.name} ({plant.height}cm, {plant.age} days)")
+        total += 1
+    print(f"\nTotal plants created: {total}")
 
 
-if (__name__ == "__main__"):
-    ft_plant_growth()
+if __name__ == "__main__":
+    ft_plant_factory()
