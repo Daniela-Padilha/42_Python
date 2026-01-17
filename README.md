@@ -28,11 +28,12 @@ Working with control structures to explore, filter, and validate garden datasets
 
 | Concepts                                                                 |
 |--------------------------------------------------------------------------|
-| Classes, __init__, OOP                                                   |
-| Encapsulation                                                            |
+| Classes, __init__, OOP, encapsulation                                    |
+| f-string                                                                 |
 | Setters and getters                                                      |
 | Tuples, arg unpacking and list comprehension                             |
-| Simple analytical logic on structured data                               |
+| Inheritance, super()                                                     |
+| Nested classes, instance method, class method, static method             |
 
 ---
 
