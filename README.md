@@ -6,6 +6,9 @@ The curriculum introduces Python through a progressive, data-driven approach usi
 Each module builds upon the previous one, moving from Python fundamentals to object-oriented programming, data analysis, and advanced language features.
 
 ---
+> [NOTE]
+> FOR 42 STUDENTS
+> These modules were not evaluated, and as such might not comply with evaluation rules.
 
 ## 🌿 Module 00 — Python Fundamentals Through Garden Data
 
@@ -15,16 +18,16 @@ Introduction to Python syntax and basic programming concepts using simple garden
 |--------------------------------------------------------------------------|
 | Python execution, basic output, environment setup                        |
 | Variables, basic data types, arithmetic operations                       |
-| Command-line arguments (`sys.argv`)                                      |
 | String manipulation and formatting                                       |
 | Conditional logic applied to garden data                                 |
 | Functions and simple data processing                                     |
 
 ---
 
-## 🌱 Module 01 — Control Flow & Data Exploration
+## 🌱 Module 01 — Object-Oriented Garden Systems
 
-Working with control structures to explore, filter, and validate garden datasets.
+Build a comprehensive digital garden ecosystem while discovering advanced
+Python concepts.
 
 | Concepts                                                                 |
 |--------------------------------------------------------------------------|
@@ -37,16 +40,16 @@ Working with control structures to explore, filter, and validate garden datasets
 
 ---
 
-## 🌼 Module 02 — Data Structures for Garden Records
+## 🌼 Module 02 — Data Engineering for Smart Agriculture
 
-Introduction to Python’s built-in data structures for storing and organizing garden data.
+Build resilient data pipelines for your smart garden!
 
 | Concepts                                                                 |
 |--------------------------------------------------------------------------|
-| Lists and indexed data                                                   |
-| Tuples and immutable records                                             |
+| Exception handling                                                       |
+| Custom Exceptions                                                        |
 | Dictionaries as structured datasets                                      |
-| Nested data structures                                                   |
+| Polymorphism                                                             |
 | Iterating and querying collections                                       |
 
 ---
