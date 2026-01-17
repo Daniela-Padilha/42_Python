@@ -1,7 +1,7 @@
 def garden_operations() -> None:
-    value: int = int("abc")
-    nbr: int = 1/0
-    file = open("noexist.txt")
+    int("abc")
+    1/0
+    open("noexist.txt")
     fruit = {"name": "apple", "color": "red"}
     print(fruit["price"])
 
@@ -36,7 +36,7 @@ def test_error_types() -> None:
         print("Caught an error, but program continues!")
 
 
-def main():
+def main() -> None:
     test_error_types()
     print("\nAll error types tested successfully!")
 
